@@ -32,16 +32,17 @@
                                     <li class="s-header-v2__nav-item"><a href="#about" class="s-header-v2__nav-link">About</a></li>
 
                                     <li class="s-header-v2__nav-item">
-                                        <a href="/stories.php" class="dropdown-toggle s-header-v2__nav-link -is-active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Stories <span class="g-font-size-10--xs g-margin-l-5--xs ti-angle-down"></span></a>
+                                        <a href="/stories" class="dropdown-toggle s-header-v2__nav-link -is-active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Stories <span class="g-font-size-10--xs g-margin-l-5--xs ti-angle-down"></span></a>
                                         <ul class="dropdown-menu s-header-v2__dropdown-menu">
-                                            <li><a href="/townhall.php" class="s-header-v2__dropdown-menu-link">2011</a></li>
-                                            <li><a href="/consox.php" class="s-header-v2__dropdown-menu-link">2012</a></li>
-                                            <li><a href="/zerotoone.php" class="s-header-v2__dropdown-menu-link">2013</a></li>
-                                            <li><a href="/intern.php" class="s-header-v2__dropdown-menu-link">2014</a></li>
-                                            <li><a href="/expo.php" class="s-header-v2__dropdown-menu-link">2015</a></li>
-                                            <li><a href="/azure.php" class="s-header-v2__dropdown-menu-link">2016</a></li>
-                                            <li><a href="/azure.php" class="s-header-v2__dropdown-menu-link">2017</a></li>
-                                            <li><a href="/azure.php" class="s-header-v2__dropdown-menu-link">2018</a></li>
+                                            <li><a href="/stories/2011.php" class="s-header-v2__dropdown-menu-link">2011</a></li>
+                                            <li><a href="/stories/2012.php" class="s-header-v2__dropdown-menu-link">2012</a></li>
+                                            <li><a href="/stories/2013.php" class="s-header-v2__dropdown-menu-link">2013</a></li>
+                                            <li><a href="/stories/2014.php" class="s-header-v2__dropdown-menu-link">2014</a></li>
+                                            <li><a href="/stories/2015.php" class="s-header-v2__dropdown-menu-link">2015</a></li>
+                                            <li><a href="/stories/2016.php" class="s-header-v2__dropdown-menu-link">2016</a></li>
+                                            <li><a href="/stories/2017.php" class="s-header-v2__dropdown-menu-link">2017</a></li>
+                                            <li><a href="/stories/2018.php" class="s-header-v2__dropdown-menu-link">2018</a></li>
+                                            <li><a href="/stories/2019.php" class="s-header-v2__dropdown-menu-link">2019</a></li>
                                         </ul>
                                     </li>
                                     <li class="s-header-v2__nav-item"><a href="https://www.ecellvnit.org/team.php" class="s-header-v2__nav-link">Current Team</a></li>
