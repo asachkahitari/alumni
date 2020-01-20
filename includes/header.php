@@ -32,59 +32,19 @@
                                     <li class="s-header-v2__nav-item"><a href="#about" class="s-header-v2__nav-link">About</a></li>
 
                                     <li class="s-header-v2__nav-item">
-                                        <!--<a href="#events" class="s-header-v2__nav-link">Events</a>-->
-                                        <a href="index.html" class="dropdown-toggle s-header-v2__nav-link -is-active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events <span class="g-font-size-10--xs g-margin-l-5--xs ti-angle-down"></span></a>
+                                        <a href="/stories.php" class="dropdown-toggle s-header-v2__nav-link -is-active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Stories <span class="g-font-size-10--xs g-margin-l-5--xs ti-angle-down"></span></a>
                                         <ul class="dropdown-menu s-header-v2__dropdown-menu">
-                                            <li><a href="/Swadesh.php" class="s-header-v2__dropdown-menu-link">Swades</a></li>
-                                            <li><a href="https://startupconclave.ecellvnit.org" class="s-header-v2__dropdown-menu-link">Startup Conclave</a></li>
-                                            <li><a href="https://neo.ecellvnit.org" class="s-header-v2__dropdown-menu-link">NEO</a></li>
-                                            <li><a href="/AdVenture.php" class="s-header-v2__dropdown-menu-link">AdVenture</a></li>
-                                            <li><a href="/CEO.php" class="s-header-v2__dropdown-menu-link">CEO</a></li>
-                                            <li><a href="/nirmaan.php" class="s-header-v2__dropdown-menu-link">Nirmaan</a></li>
-                                            <li><a href="/renderico.php" class="s-header-v2__dropdown-menu-link">Render.ico</a></li>
-                                            <li><a href="/BizQuiz.php" class="s-header-v2__dropdown-menu-link">Bizquiz</a></li>
-                                            <li><a href="/BizMantra.php" class="s-header-v2__dropdown-menu-link">Bizmantra</a></li>
-                                            <li><a href="/Pitch_Perfect.php" class="s-header-v2__dropdown-menu-link">Pitch Perfect</a></li>
-                                            <li><a href="/expo.php" class="s-header-v2__dropdown-menu-link">Startup Expo</a></li>
-                                            <li><a href="/trec.php" class="s-header-v2__dropdown-menu-link">TREC</a></li>
-
+                                            <li><a href="/townhall.php" class="s-header-v2__dropdown-menu-link">2011</a></li>
+                                            <li><a href="/consox.php" class="s-header-v2__dropdown-menu-link">2012</a></li>
+                                            <li><a href="/zerotoone.php" class="s-header-v2__dropdown-menu-link">2013</a></li>
+                                            <li><a href="/intern.php" class="s-header-v2__dropdown-menu-link">2014</a></li>
+                                            <li><a href="/expo.php" class="s-header-v2__dropdown-menu-link">2015</a></li>
+                                            <li><a href="/azure.php" class="s-header-v2__dropdown-menu-link">2016</a></li>
+                                            <li><a href="/azure.php" class="s-header-v2__dropdown-menu-link">2017</a></li>
+                                            <li><a href="/azure.php" class="s-header-v2__dropdown-menu-link">2018</a></li>
                                         </ul>
                                     </li>
-
-
-                                    <!-- <li class="s-header-v2__nav-item">
-                                        <a href="#events" class="s-header-v2__nav-link">Events</a>
-                                        <a href="/attractions.php" class="dropdown-toggle s-header-v2__nav-link -is-active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Attractions <span class="g-font-size-10--xs g-margin-l-5--xs ti-angle-down"></span></a>
-                                        <ul class="dropdown-menu s-header-v2__dropdown-menu">
-                                            <li><a href="/townhall.php" class="s-header-v2__dropdown-menu-link">TownHall</a></li>
-                                            <li><a href="/consox.php" class="s-header-v2__dropdown-menu-link">CONSOx</a></li>
-                                            <li><a href="/zerotoone.php" class="s-header-v2__dropdown-menu-link">Zero To One</a></li>
-                                            <li><a href="/intern.php" class="s-header-v2__dropdown-menu-link">Internship Fair</a></li>
-                                            <li><a href="/expo.php" class="s-header-v2__dropdown-menu-link">Startup Expo</a></li>
-                                            <li><a href="/azure.php" class="s-header-v2__dropdown-menu-link">Azure Space</a></li>
-                                            <li><a href="/attractions.php" class="s-header-v2__dropdown-menu-link">Workshops & Webinars</a></li>
-
-
-                                        </ul>
-                                    </li> -->
-                                    <!-- <li class="s-header-v2__nav-item"><a href="https://www.ecellvnit.org/store.php" class="s-header-v2__nav-link">Merchandise</a></li> -->
-
-                                    <li class="s-header-v2__nav-item"><a href="https://www.ecellvnit.org/spons.php" class="s-header-v2__nav-link">Previous Sponsors</a></li>
-                                    <li class="s-header-v2__nav-item"><a href="/team.php" class="s-header-v2__nav-link">Team</a></li>
-                                    <?php if($_SESSION['email']){ ?>
-                                      <li class="s-header-v2__nav-item">
-                                        <a href="" class="dropdown-toggle s-header-v2__nav-link -is-active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo $_SESSION['name'] ?> <span class="g-font-size-10--xs g-margin-l-5--xs ti-angle-down"></span></a>
-                                        <ul class="dropdown-menu s-header-v2__dropdown-menu">
-                                            <li><a href="dashboard.php" class="s-header-v2__dropdown-menu-link">Dashboard</a></li>
-                                            <li><a href="register.php" class="s-header-v2__dropdown-menu-link">New Events</a></li>
-                                            <li><a href="logout.php" class="s-header-v2__dropdown-menu-link">Logout</a></li>
-                                        </ul>
-                                      </li>
-                                  <?php }else{ ?>
-                                    <li class="s-header-v2__nav-item"><a href="/login.php" class="s-header-v2__nav-link">Login</a></li>
-                                    <li class="s-header-v2__nav-item"><a href="/regnew.php" class="s-header-v2__nav-link">Register</a></li>
-                                    <!-- <li class="s-header-v2__nav-item"><a href="login.php" class="s-header-v2__nav-link">Login</a></li> -->
-                                    <?php } ?>
+                                    <li class="s-header-v2__nav-item"><a href="https://www.ecellvnit.org/team.php" class="s-header-v2__nav-link">Current Team</a></li>
                                 </ul>
                             </div>
                             <!-- End Nav Menu -->
