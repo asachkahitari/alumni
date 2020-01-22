@@ -71,8 +71,8 @@
                             <!-- Logo -->
                             <div class="s-header-v2__logo">
                                 <a href="/" class="s-header-v2__logo-link">
-                                    <img class="s-header-v2__logo-img s-header-v2__logo-img--default" src="https://startupconclave.ecellvnit.org/static/img/E-Cell_white.png" alt="Ecell Logo" height="50">
-                                    <img class="s-header-v2__logo-img s-header-v2__logo-img--shrink" src="../img/icon.png" alt="Conso" height="40">
+                                    <img class="s-header-v2__logo-img s-header-v2__logo-img--default" src="../img/logo/ecell.png" alt="Ecell Logo" height="50">
+                                    <img class="s-header-v2__logo-img s-header-v2__logo-img--shrink" src="../img/logo/ecell-black.png" alt="Conso" height="40">
                                 </a>
                             </div>
                             <!-- End Logo -->
@@ -111,7 +111,7 @@
             <!-- End Navbar -->
         </header>
 
-        <div class="s-promo-block-v3 g-fullheight--xs event-landing1" style="background: url(https://image.freepik.com/free-photo/handshake-businessmen_1098-742.jpg);">
+        <div class="s-promo-block-v3 g-fullheight--xs event-landing1" style="background: url(img/alum-landing/2012.jpg);">
             <div class="container g-ver-center--sm g-padding-y-125--xs g-padding-y-0--lg event-landing-inner">
 
                 <div class="g-margin-t-30--xs g-margin-t-0--sm g-margin-b-30--xs g-margin-b-70--md g-margin-l-20--xs g-margin-l-80--sm">

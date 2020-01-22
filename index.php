@@ -12,85 +12,18 @@
         <?php include("includes/header.php")?>
         <!--========== END HEADER ==========-->
 
-        <div class="s-swiper js__swiper-one-item">
+        <!-- <div class="s-swiper js__swiper-one-item"> -->
             <!-- Swiper Wrapper -->
             <div class="swiper-wrapper">
-                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/alum-landing/2012.jpg');">
+                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/back.jpg');">
                     <div class="container g-text-center--xs g-ver-center--xs">
                         <div class="g-margin-b-30--xs">
-                            <h1 class="g-font-size-45--xs g-font-size-55--sm g-font-size-75--md g-color--white"><strong>Consortium</strong><br></h1>
-                            <h2 class="g-color--white">9-11th March<br>VNIT, Nagpur</h2>
-			                      <a class="btn btn-primary" href="https://apti.ecellvnit.org/" target="_blank" role="button">Register for Brainathon</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/alum-landing/2013-1.jpg');">
-                    <div class="container g-text-center--xs g-ver-center--xs">
-                        <div class="g-margin-b-30--xs">
-                            <div class="g-margin-b-30--xs">
-                              <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">push the human race forward</h1>
-				                      <a class="btn btn-primary" href="https://apti.ecellvnit.org/" target="_blank" role="button">Register for Brainathon</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/alum-landing/2014.jpg');">
-                    <div class="container g-text-center--xs g-ver-center--xs">
-                        <div class="g-margin-b-30--xs">
-                            <div class="g-margin-b-30--xs">
-                              <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">push the human race forward</h1>
-				                      <a class="btn btn-primary" href="https://apti.ecellvnit.org/" target="_blank" role="button">Register for Brainathon</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/alum-landing/2015.jpg');">
-                    <div class="container g-text-center--xs g-ver-center--xs">
-                        <div class="g-margin-b-30--xs">
-                            <div class="g-margin-b-30--xs">
-                              <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">push the human race forward</h1>
-				                      <a class="btn btn-primary" href="https://apti.ecellvnit.org/" target="_blank" role="button">Register for Brainathon</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/alum-landing/2016.jpeg');">
-                    <div class="container g-text-center--xs g-ver-center--xs">
-                        <div class="g-margin-b-30--xs">
-                            <div class="g-margin-b-30--xs">
-                              <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">push the human race forward</h1>
-				                      <a class="btn btn-primary" href="https://apti.ecellvnit.org/" target="_blank" role="button">Register for Brainathon</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/alum-landing/2017.jpg');">
-                    <div class="container g-text-center--xs g-ver-center--xs">
-                        <div class="g-margin-b-30--xs">
-                            <div class="g-margin-b-30--xs">
-                              <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">push the human race forward</h1>
-				                      <a class="btn btn-primary" href="https://apti.ecellvnit.org/" target="_blank" role="button">Register for Brainathon</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/alum-landing/2018.jpg');">
-                    <div class="container g-text-center--xs g-ver-center--xs">
-                        <div class="g-margin-b-30--xs">
-                            <div class="g-margin-b-30--xs">
-                              <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">push the human race forward</h1>
-				                      <a class="btn btn-primary" href="https://apti.ecellvnit.org/" target="_blank" role="button">Register for Brainathon</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/alum-landing/2019.jpeg');">
-                    <div class="container g-text-center--xs g-ver-center--xs">
-                        <div class="g-margin-b-30--xs">
-                            <div class="g-margin-b-30--xs">
-                              <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">push the human race forward</h1>
-				                      <a class="btn btn-primary" href="https://apti.ecellvnit.org/" target="_blank" role="button">Register for Brainathon</a>
-                            </div>
+                            <h1 class="g-font-size-30--xs g-font-size-40--sm g-font-size-60--md g-color--white"><strong>Alumni of <br/><span class="g-color--red">E-Cell VNIT</strong></span><br></h1>
+                            <img src="img/logo/conso-white.png" height="50"/><br/><h2 class="g-color--white g-font-size-10--xs g-font-size-10--sm g-font-size-20--md"><b>21-23 February 2020</b></h2>
+			                      <br/>
+                            <a href="#contribute" title="contibute">
+                                <span class="s-btn--primary-bg g-radius--50 g-padding-x-40--xs g-padding-y-15--xs g-font-size-20--xs g-color--white g-padding-x-10--xs">Contribute</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -98,41 +31,10 @@
             <!-- End Swiper Wrapper -->
 
             <!-- Arrows -->
-            <a href="javascript:void(0);" class="s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a>
-            <a href="javascript:void(0);" class="s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-left js__swiper-btn--prev"></a>
+            <!-- <a href="javascript:void(0);" class="s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a> -->
+            <!-- <a href="javascript:void(0);" class="s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-left js__swiper-btn--prev"></a> -->
             <!-- End Arrows -->
-        </div>
-
-        <!--========== PROMO BLOCK ==========-->
-        <div class="s-promo-block-v3 g-fullheight--xs event-landing1" style="background: url(https://image.freepik.com/free-photo/handshake-businessmen_1098-742.jpg);">
-            <div class="container g-ver-center--sm g-padding-y-125--xs g-padding-y-0--lg event-landing-inner">
-
-                <div class="g-margin-t-30--xs g-margin-t-0--sm g-margin-b-30--xs g-margin-b-70--md g-margin-l-20--xs g-margin-l-80--sm">
-                    <!--<img src="img/logo/ceoblack.png" alt="" width="200" style="margin-top:-100px; margin-left:-20px">-->
-
-                    <h1 class="g-font-size-60--xs g-font-size-80--sm g-font-size-80--lg g-color--white" style="font-weight:900; text-shadow: 2px 0 #333;letter-spacing:2px;"><b>Associate with us</b></h1>
-
-                    <h3 class="g-color--white">A contribution to grow the startup culture in VNIT</h3>
-
-
-
-                    <br>
-
-
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
-                                    <a href="#contribute" title="contibute">
-                                        <!--<i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-arrow-down"></i>-->
-                                        <span class="text-uppercase s-btn--primary-bg g-radius--50 g-padding-x-30--xs g-padding-y-15--xs g-font-size-13--xs g-color--white g-padding-x-15--xs">Contribute</span>
-                                    </a>
-                                </div>
-
-
-
-                </div>
-
-            </div>
-        </div>
-        <!--========== END PROMO BLOCK ==========-->
+        <!-- </div> -->
 
         <div class="g-promo-section" style="background:#fff00;" id="about">
             <div class="container g-padding-y-30--xs g-padding-y-30--sm g-padding-x-80--md g-padding-x-60--sm g-padding-x-10--xs">
@@ -199,13 +101,13 @@
 
 
         </div>
-        <div class="g-promo-section" style="background:#fff00;" id="contribute">
+        <div class="g-promo-section" style="background-color:#dddddd;" id="contribute">
             <div class="container g-padding-y-5--xs g-padding-y-30--sm g-padding-x-80--md g-padding-x-60--sm g-padding-x-10--xs"  style="padding-bottom: 100px;">
               <div class="row g-margin-t-5--xs">
                 <div class="col-md-6 col-xs-12 g-full-width--xs  g-margin-b-20--lg g-margin-t-20--lg">
                   <div class="g-text-center--xs">
                     <div class=" g-margin-b-0--xs">
-                        <h3><span style="color:#d4af37">GOLD</span> CONTRIBUTION</h3>
+                        <h3><span style="color:#d4af37">GOLD</span> CONTRIBUTION</h3><br/>
                     </div>
 
 
@@ -221,7 +123,7 @@
 
                   <a href="https://pmny.in/qIeReazD8RqW" title="contibute">
                     <div class=" g-margin-b-0--xs">
-                        <h3><span style="color:#b0b0b0">SILVER</span> CONTRIBUTION</h3>
+                        <h3><span style="color:#b0b0b0">SILVER</span> CONTRIBUTION</h3><br/>
                     </div>
 
                       <!--<i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-arrow-down"></i>-->

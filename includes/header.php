@@ -17,8 +17,8 @@
                             <!-- Logo -->
                             <div class="s-header-v2__logo">
                                 <a href="/" class="s-header-v2__logo-link">
-                                    <img class="s-header-v2__logo-img s-header-v2__logo-img--default" src="https://startupconclave.ecellvnit.org/static/img/E-Cell_white.png" alt="Ecell Logo" height="50">
-                                    <img class="s-header-v2__logo-img s-header-v2__logo-img--shrink" src="img/icon.png" alt="Conso" height="40">
+                                    <img class="s-header-v2__logo-img s-header-v2__logo-img--default" src="img/logo/ecell.png" alt="Ecell Logo" height="50">
+                                    <img class="s-header-v2__logo-img s-header-v2__logo-img--shrink" src="img/logo/ecell-black.png" alt="Conso" height="40">
                                 </a>
                             </div>
                             <!-- End Logo -->
@@ -29,7 +29,6 @@
                             <div class="collapse navbar-collapse s-header-v2__navbar-collapse" id="nav-collapse">
                                 <ul class="s-header-v2__nav">
                                     <li class="s-header-v2__nav-item"><a href="index.php" class="s-header-v2__nav-link">Home</a></li>
-                                    <li class="s-header-v2__nav-item"><a href="#about" class="s-header-v2__nav-link">About</a></li>
 
                                     <li class="s-header-v2__nav-item">
                                         <a href="/stories" class="dropdown-toggle s-header-v2__nav-link -is-active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Stories <span class="g-font-size-10--xs g-margin-l-5--xs ti-angle-down"></span></a>
@@ -45,6 +44,8 @@
                                             <li><a href="/stories/2019.php" class="s-header-v2__dropdown-menu-link">2019</a></li>
                                         </ul>
                                     </li>
+
+                                    <li class="s-header-v2__nav-item"><a href="#about" class="s-header-v2__nav-link">Contribute</a></li>
                                     <li class="s-header-v2__nav-item"><a href="https://www.ecellvnit.org/team.php" class="s-header-v2__nav-link">Current Team</a></li>
                                 </ul>
                             </div>
