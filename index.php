@@ -111,7 +111,7 @@
                     </div>
 
 
-                  <a href="https://pmny.in/8Iinj9DqS1jk" title="contribute">
+                  <a href="https://pmny.in/8Iinj9DqS1jk" title="contribute" target="_blank">
                       <!--<i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-arrow-down"></i>-->
                       <span class="s-btn--primary-bg g-radius--50 g-padding-x-30--xs g-padding-y-15--xs g-font-size-13--xs g-color--white g-padding-x-15--xs">Rs 10,000</span>
                   </a>
@@ -121,7 +121,7 @@
                 <div class="col-md-6 col-xs-12 g-full-width--xs  g-margin-b-20--lg g-margin-t-20--lg">
                   <div class="g-text-center--xs">
 
-                  <a href="https://pmny.in/qIeReazD8RqW" title="contibute">
+                  <a href="https://pmny.in/qIeReazD8RqW" title="contibute" target="_blank">
                     <div class=" g-margin-b-0--xs">
                         <h3><span style="color:#b0b0b0">SILVER</span> CONTRIBUTION</h3><br/>
                     </div>

@@ -144,10 +144,7 @@
 
                         </div>
                         <div class="row">
-                            <div class="col-sm-12" style="position:relative; text-align:center">
-                                <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity g-padding-y-20--md">Copyright:  <a class="g-color--primary" href="https://ecellvnit.org" target="_blank">E-Cell VNIT</a>    Developed By: <a class="g-color--primary" href="https://www.linkedin.com/in/sagar-bansal-448097140/" target="_blank">sagban</a></p>
-
-                            </div>
+                            <br>
                         </div>
 
 

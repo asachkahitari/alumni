@@ -156,14 +156,14 @@
                             <div class="g-margin-b-20--xs">
                                 <input type="email" name="email" class="form-control s-form-v2__input g-radius--50" placeholder="* Email" />
                             </div>
-                            <input type="text" name="phone" class="form-control s-form-v2__input g-radius--50" placeholder="* Phone" />
+                            <input type="text" name="contact" class="form-control s-form-v2__input g-radius--50" placeholder="* Phone" />
                         </div>
                         <div class="col-sm-6">
                             <textarea class="form-control s-form-v2__input g-radius--10 g-padding-y-20--xs" rows="8" name="story" placeholder="* Tell us your story"></textarea>
                         </div>
                     </div>
                     <div class="g-text-center--xs">
-                        <button type="submit" class="text-uppercase s-btn s-btn--md s-btn--primary-bg g-radius--50 g-padding-x-80--xs">Submit</button>
+                        <button type="submit" name="submit" class="text-uppercase s-btn s-btn--md s-btn--primary-bg g-radius--50 g-padding-x-80--xs">Submit</button>
                     </div>
                 </form>
                 <div class="g-text-center--xs" id="confirm"></div>

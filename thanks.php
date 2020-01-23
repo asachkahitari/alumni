@@ -1,101 +1,30 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
-function htmlMail($t, $sub, $name, $teamname, $event){
+require_once('includes/mailing.php');
 
+if(isset($_POST['submit'])){
+  require "dbconnect.php";
   $name = $con->real_escape_string($_POST['name']);
   $email = $con->real_escape_string($_POST['email']);
   $contact = $con->real_escape_string($_POST['contact']);
   $story = $con->real_escape_string($_POST['story']);
 
-  $html = '<!DOCTYPE html>
-            <html>
-                <head>
-                    <style>
-                        li{
-                            padding:10px;
-                        }
-                        p{
-                            font-size:16px;
-                        }
+  $alumquery = "CREATE TABLE IF NOT EXISTS Alumni(
+              ID INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+              Name VARCHAR(255) NOT NULL,
+              Email VARCHAR(255) NOT NULL,
+              Contact VARCHAR(255) NOT NULL,
+              )";
+  mysqli_query($con,$alumquery);
 
-                        *{
-                            font-family:Helvetica,Arial,sans-serif;
-                        }
-
-                        h2{
-                            text-align: center;
-                            margin-top: 150px;
-
-                        }
-                        html, body{
-                            background-color:#f7f9fb;
-                            margin: 0;
-                        }
-                        .context {
-                            font-size: 12px;
-                            padding: 40px 60px;
-                            margin-left:10%;
-                            margin-right: 10%;
-                        }
-
-                        .context p{
-                            font-size: 12px;
-                        }
-                        p{
-                            margin: 15px 0px;
-                        }
-
-                    </style>
-                </head>
-                <body>
-
-                    <div style="background: #0b0b0b; padding:10px 30px;"><img src="https://www.ecellvnit.org/img/logo-ecell.png"></div>
-                    <h2 style="font-size:22px;">Welcome to Pitch Perfect</h2><br>
-
-                    <div class="context">
-                        <h3><b>Hey '.$name .'!</b></h3>
-                        <p>Thank You for reaching out to us!</p>
-                        <div>
-                            <p>
-                                It is an honour to connect with you. The response you submitted on the platform is:<br> '.$textarea.'.
-                            </p>
-
-                            <p>We will be reaching out to you on '.$phone.'.</p>
-                            <p>
-                                With warm regards,<br>
-                                Lakshya
-                                +91 77384 46941
-                                Treasurer,
-                                E-Cell VNIT
-                            </p>
-                        </div>
-                    </div>
-                </body>
-            </html>';
-
+  $insert = "INSERT INTO Alumni(Name,Email,Contact) VALUES('$name','$email','$contact')";
+  mysqli_query($con,$insert);
 
   $subject = "Thank You for sharing your Story!";
-  htmlMail($email,$s,$name,$name, 'Alumni');
 
+  htmlMail($email,$subject,$name,$story, $contact);
 
-  $url = 'https://startupconclave.ecellvnit.org/send';
-  $data = array('subject' => $subject, 'email' => $to, 'html' => $html, 'pass' => 'Entrepreneurs1999');
-
-  $options = array(
-      'http' => array(
-          'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
-          'method'  => 'POST',
-          'content' => http_build_query($data)
-      )
-  );
-  $context  = stream_context_create($options);
-  $result = file_get_contents($url, false, $context);
-  if ($result === FALSE) {
-    $msg = 'We are facing problem in sending email. Contact +91 7738446941 to report.';
-  }
-
-}
 ?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -132,3 +61,6 @@ function htmlMail($t, $sub, $name, $teamname, $event){
     </body>
     <!-- End Body -->
 </html>
+<?php }else {
+  header('location:index.php');
+} ?>

@@ -1,5 +1,5 @@
 <?php
-  $pagetitle = "2019 Batch";
+  $pagetitle = "2013 Batch";
 ?>
 
 <html>
@@ -111,15 +111,15 @@
             <!-- End Navbar -->
         </header>
 
-        <div class="s-promo-block-v3 g-fullheight--xs event-landing1" style="background: url(img/alum-landing/2019.jpeg);">
+        <div class="s-promo-block-v3 g-fullheight--xs event-landing1" style="background: url(../img/alum-landing/2019.jpg);">
             <div class="container g-ver-center--sm g-padding-y-125--xs g-padding-y-0--lg event-landing-inner">
 
                 <div class="g-margin-t-30--xs g-margin-t-0--sm g-margin-b-30--xs g-margin-b-70--md g-margin-l-20--xs g-margin-l-80--sm">
                     <!--<img src="img/logo/ceoblack.png" alt="" width="200" style="margin-top:-100px; margin-left:-20px">-->
 
-                    <h1 class="g-font-size-60--xs g-font-size-80--sm g-font-size-80--lg g-color--white" style="font-weight:900; text-shadow: 2px 0 #333;letter-spacing:2px;"><b>Associate with us</b></h1>
+                    <h1 class="g-font-size-60--xs g-font-size-80--sm g-font-size-80--lg g-color--white" style="font-weight:900; text-shadow: 2px 0 #333;letter-spacing:2px;"><b>Batch of 2019</b></h1>
 
-                    <h3 class="g-color--white">A contribution to grow the startup culture in VNIT</h3>
+                    <!-- <h3 class="g-color--white">A contribution to grow the startup culture in VNIT</h3> -->
 
 
 
@@ -127,9 +127,9 @@
 
 
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
-                                    <a href="#contribute" title="contibute">
+                                    <a href="#story" title="contibute">
                                         <!--<i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-arrow-down"></i>-->
-                                        <span class="text-uppercase s-btn--primary-bg g-radius--50 g-padding-x-30--xs g-padding-y-15--xs g-font-size-13--xs g-color--white g-padding-x-15--xs">Contribute</span>
+                                        <span class="text-uppercase s-btn--primary-bg g-radius--50 g-padding-x-30--xs g-padding-y-15--xs g-font-size-13--xs g-color--white g-padding-x-15--xs">Story</span>
                                     </a>
                                 </div>
 
@@ -140,6 +140,40 @@
             </div>
         </div>
 
+        <!-- Feedback Form -->
+        <div class="g-bg-color--sky-light" id="story">
+            <div class="container g-padding-y-0--xs g-padding-y-0--sm">
+                <div class="g-text-center--xs g-margin-b-40--xs"><br>
+                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Share your Story</p>
+                    <h2 class="g-font-size-32--xs g-font-size-36--md">Write To Us</h2>
+                </div>
+                <form method="post" action="../thanks.php">
+                    <div class="row g-margin-b-40--xs">
+                        <div class="col-sm-6 g-margin-b-20--xs g-margin-b-0--md">
+                            <div class="g-margin-b-20--xs">
+                                <input type="text" name="name" class="form-control s-form-v2__input g-radius--50" placeholder="* Name" />
+                            </div>
+                            <div class="g-margin-b-20--xs">
+                                <input type="email" name="email" class="form-control s-form-v2__input g-radius--50" placeholder="* Email" />
+                            </div>
+                            <input type="text" name="contact" class="form-control s-form-v2__input g-radius--50" placeholder="* Phone" />
+                        </div>
+                        <div class="col-sm-6">
+                            <textarea class="form-control s-form-v2__input g-radius--10 g-padding-y-20--xs" rows="8" name="story" placeholder="* Tell us your story"></textarea>
+                        </div>
+                    </div>
+                    <div class="g-text-center--xs">
+                        <button type="submit" name="submit" class="text-uppercase s-btn s-btn--md s-btn--primary-bg g-radius--50 g-padding-x-80--xs">Submit</button>
+                    </div>
+                </form>
+                <div class="g-text-center--xs" id="confirm"></div>
+                <div class="g-text-center--xs g-margin-b-40--xs">
+                    <br><br>
+                    <p class="text-uppercase g-font-size-14--xs g-color--dark g-font-weight--400 g-letter-spacing--2 g-margin-b-25--xs">Contact: <a href="team.php">Team</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- End Feedback Form -->
 
         <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
           <!-- Back To Top -->
