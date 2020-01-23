@@ -18,8 +18,8 @@
                 <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/back.jpg');">
                     <div class="container g-text-center--xs g-ver-center--xs">
                         <div class="g-margin-b-30--xs">
-                            <h1 class="g-font-size-30--xs g-font-size-40--sm g-font-size-60--md g-color--white"><strong>Alumni of <br/><span class="g-color--red">E-Cell VNIT</strong></span><br></h1>
-                            <img src="img/logo/conso-white.png" height="50"/><br/><h2 class="g-color--white g-font-size-10--xs g-font-size-10--sm g-font-size-20--md"><b>21-23 February 2020</b></h2>
+                            <h1 class="g-font-size-25--xs g-font-size-35--sm g-font-size-50--md g-color--white"><strong>Alumni of <br/><span class="g-color--red">E-Cell VNIT</strong></span><br></h1>
+                            <img src="img/logo/conso-white.png" height="50"/><br/><h2 class="g-color--white g-font-size-10--xs g-font-size-10--sm g-font-size-20--md"><br><b>21-23 February 2020</b></h2>
 			                      <br/>
                             <a href="#contribute" title="contibute">
                                 <span class="s-btn--primary-bg g-radius--50 g-padding-x-40--xs g-padding-y-15--xs g-font-size-20--xs g-color--white g-padding-x-10--xs">Contribute</span>
@@ -50,7 +50,7 @@
                                         <h3>Perks for Alumni Outreach</h3>
                                     </div>
                                     <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
-                                    <p>Initial blast to the alumni network, primarily focusing on alumni working or heading start-ups / angel investors and upcoming start-ups.</p>
+                                    <br><p>Initial blast to the alumni network, primarily focusing on alumni working or heading start-ups / angel investors and upcoming start-ups.</p>
 
                                 </div>
                             </div>
@@ -63,7 +63,7 @@
                                     </div>
                                     <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
 
-                                      <p>Start-ups will be a part of StartUp Expo (An event under Consortium, the annual Entrepreneurship summit hosted by E-Cell, VNIT).<br>
+                                      <br><p>Start-ups will be a part of StartUp Expo (An event under Consortium, the annual Entrepreneurship summit hosted by E-Cell, VNIT).<br>
                                         Cooperation between the club and the start-up in matters related to internships, placement opportunities, etc.<br>
                                         Further demands might be fulfilled subjective to the deal made between the club and the company.</p>
 
