@@ -1,9 +1,14 @@
 <?php
-  $db_host = "localhost:3306";
-  $db_username = "conso19";
-  $db_pass = "Conso@123";
-  $db_name = "Alumni";
+  $serverName = "localhost";
+  $userName = "prabuddha";
+  $password = "1234";
+  $dbName = "alumni_db";
 
-  $con = mysqli_connect("$db_host","$db_username","$db_pass") or die ("could not connect to mysql");
-  mysqli_select_db($con,$db_name) or die ("no database");
+  $con = mysqli_connect($serverName, $userName, $password, $dbName);
+
+
+  if (!$con)
+  {
+    die("Connection to database failed" . mysqli_error($con));
+  }
 ?>
