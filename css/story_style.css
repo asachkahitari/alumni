@@ -91,3 +91,15 @@ nav
 {
   padding: 0;
 }
+
+
+@media (max-width : 700px)
+{
+  .centered-rule
+  {
+    width: 40%
+  }
+  .side-rule
+  {
+    width: 25%;
+}

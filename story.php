@@ -16,10 +16,10 @@
       <!-- Ecell Logo -->
       <a class="navbar-brand"><img class="ecell-logo" src="img/logo/ecell.png"></a>
 
-      <button onclick="toggle()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <svg id="navbar-hamburger" xmlns="http://www.w3.org/2000/svg" width="32" height="32"><g fill="none" fill-rule="evenodd"><path fill="#FFF" stroke="#2C2830" stroke-width="1.5" d="M.75.75h30.5v30.5H.75z"/><g fill="#2C2830"><path d="M8 10h16v1.5H8zM8 15h16v1.5H8zM8 20h16v1.5H8z"/></g></g></svg>
-        <svg id="navbar-close" xmlns="http://www.w3.org/2000/svg" width="32" height="32"><g fill="none" fill-rule="evenodd"><path fill="#FFF" stroke="#2C2830" stroke-width="1.5" d="M.75.75h30.5v30.5H.75z"/><g fill="#2C2830"><path d="M10.873 9.563l11.314 11.314-1.06 1.06L9.813 10.623z"/><path d="M9.813 20.877L21.127 9.563l1.06 1.06-11.314 11.314z"/></g></g></svg>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
+
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
@@ -78,10 +78,10 @@
 
          <div class="col-lg-6 col-sm-6 mt-4">
            <div class="row">
-             <div class="col-3">
+             <div class="col-lg-3 col-5">
                <img class="member-image" alt="Mr. Dog" src="https://www.ecellvnit.org/img/400x400/lakshya.jpeg"/>
              </div>
-             <div class="col-9 my-auto">
+             <div class="col-lg-9 col-7 my-auto">
               <h3 class="member-name">Lakshya Shukla</h3>
               <p class="member-role" >
                 President
@@ -92,10 +92,10 @@
 
          <div class="col-lg-6 col-sm-6 mt-4">
            <div class="row">
-             <div class="col-3">
+             <div class="col-lg-3 col-5">
                <img class="member-image" alt="Mr. Dog" src="https://www.ecellvnit.org/img/400x400/kaustubh.jpeg"/>
              </div>
-             <div class="col-9 my-auto">
+             <div class="col-lg-9 col-7 my-auto">
               <h3 class="member-name">Kaustubh Rajimwale</h3>
               <p class="member-role" >
                 Vice President
@@ -106,10 +106,10 @@
 
          <div class="col-lg-6 col-sm-6 mt-4">
            <div class="row">
-             <div class="col-3">
+             <div class="col-lg-3 col-5">
                <img class="member-image" alt="Mr. Dog" src="https://www.ecellvnit.org/img/400x400/Mithil.jpg"/>
              </div>
-             <div class="col-9 my-auto">
+             <div class="col-lg-9 col-7 my-auto">
               <h3 class="member-name">Mithil Rao</h3>
               <p class="member-role" >
                 Treasurer
@@ -120,10 +120,10 @@
 
          <div class="col-lg-6 col-sm-6 mt-4">
            <div class="row">
-             <div class="col-3">
+             <div class="col-lg-3 col-5">
                <img class="member-image" alt="Mr. Dog" src="https://www.ecellvnit.org/img/400x400/bhojne.jpg"/>
              </div>
-             <div class="col-9 my-auto">
+             <div class="col-lg-9 col-7 my-auto">
               <h3 class="member-name">Rushikesh Bhojne</h3>
               <p class="member-role" >
                 Head Of Corporate
@@ -134,10 +134,10 @@
 
          <div class="col-lg-6 col-sm-6 mt-4">
            <div class="row">
-             <div class="col-3">
+             <div class="col-lg-3 col-5">
                <img class="member-image" alt="Mr. Dog" src="https://www.ecellvnit.org/img/400x400/Archis.jpg"/>
              </div>
-             <div class="col-9 my-auto">
+             <div class="col-lg-9 col-7 my-auto">
               <h3 class="member-name">Archis Bodhke</h3>
               <p class="member-role" >
                 Head Of Corporate
@@ -148,10 +148,10 @@
 
          <div class="col-lg-6 col-sm-6 mt-4">
            <div class="row">
-             <div class="col-3">
+             <div class="col-lg-3 col-5">
                <img class="member-image" alt="Mr. Dog" src="https://www.ecellvnit.org/img/400x400/ved.jpg"/>
              </div>
-             <div class="col-9 my-auto">
+             <div class="col-lg-9 col-7 my-auto">
               <h3 class="member-name">Ved Kotpalliwar</h3>
               <p class="member-role" >
                 Head Of Events
@@ -162,10 +162,10 @@
 
          <div class="col-lg-6 col-sm-6 mt-4">
            <div class="row">
-             <div class="col-3">
+             <div class="col-lg-3 col-5">
                <img class="member-image" alt="Mr. Dog" src="https://www.ecellvnit.org/img/400x400/Gauri.jpg"/>
              </div>
-             <div class="col-9 my-auto">
+             <div class="col-lg-9 col-7 my-auto">
               <h3 class="member-name">Gauri Dixit </h3>
               <p class="member-role" >
                 Head Of Events
@@ -176,10 +176,10 @@
 
          <div class="col-lg-6 col-sm-6 mt-4">
            <div class="row">
-             <div class="col-3">
+             <div class="col-lg-3 col-5">
                <img class="member-image" alt="Mr. Dog" src="https://www.ecellvnit.org/img/400x400/Ritika.jpeg"/>
              </div>
-             <div class="col-9 my-auto">
+             <div class="col-lg-9 col-7 my-auto">
               <h3 class="member-name">Ritika Meena</h3>
               <p class="member-role" >
                 Head Of Planning & Marketing
