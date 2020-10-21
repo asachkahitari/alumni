@@ -1,0 +1,43 @@
+nav
+{
+  background-color: #000;
+}
+
+.team-photo
+{
+  width: 80%;
+}
+.nav-link
+{
+  color: #bd2620;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+}
+.dropdown-menu
+{
+  background: #000;
+}
+.dropdown-item
+{
+  color: #bd2620;
+}
+.ecell-logo
+{
+  width: 80px;
+}
+
+.centered-rule
+{
+  margin-top: 0;
+  display: block;
+  width: 150px;
+  height: 5px;
+  background-color: #903c3a;
+}
+.story-content, .story-heading
+{
+  padding-left: 10%;
+  padding-left: 10%;
+}
