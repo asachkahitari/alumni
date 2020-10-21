@@ -1,3 +1,10 @@
+.page-content
+{
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Montserrat' , sans-serif;
+}
+
 nav
 {
   background-color: #000;
@@ -5,7 +12,9 @@ nav
 
 .team-photo
 {
-  width: 80%;
+  width: 100%;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 .nav-link
 {
@@ -28,16 +37,57 @@ nav
   width: 80px;
 }
 
-.centered-rule
+.centered-rule, .side-rule
 {
   margin-top: 0;
   display: block;
-  width: 150px;
-  height: 5px;
+  height: 2px;
   background-color: #903c3a;
 }
-.story-content, .story-heading
+.centered-rule
 {
-  padding-left: 10%;
-  padding-left: 10%;
+  width: 15%;
+}
+.side-rule
+{
+  width: 5%;
+}
+
+.section-heading
+{
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+/* For core member images and description */
+.member-image
+{
+  float: left;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  filter: grayscale(100%);
+}
+.core-members-list
+{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.member-name
+{
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.member-role
+{
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.container, .row, .col-lg-4, .col-sm-6
+{
+  padding: 0;
 }
