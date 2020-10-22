@@ -93,6 +93,14 @@ nav
 }
 
 
+/* For write-to-us.php */
+
+body
+{
+  background-image: url('../img/alum-form-background.jpg');
+  background-size: cover;
+}
+
 @media (max-width : 700px)
 {
   .centered-rule

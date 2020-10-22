@@ -42,6 +42,9 @@
         <a class="nav-link px-3 " href="">Contribute</a>
       </li>
       <li>
+        <a class="nav-link px-3 " href="">Write To Us</a>
+      </li>
+      <li>
         <a class="nav-link px-3 " href="">Current Team</a>
       </li>
 

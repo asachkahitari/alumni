@@ -46,6 +46,7 @@
                                     </li>
 
                                     <li class="s-header-v2__nav-item"><a href="index.php#about" class="s-header-v2__nav-link">Contribute</a></li>
+                                    <li class="s-header-v2__nav-item"><a href="./write-to-us.php" class="s-header-v2__nav-link">Write To Us</a></li>
                                     <li class="s-header-v2__nav-item"><a href="https://www.ecellvnit.org/team.php" class="s-header-v2__nav-link">Current Team</a></li>
                                 </ul>
                             </div>
