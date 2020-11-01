@@ -100,6 +100,12 @@ body
   background-image: url('../img/alum-form-background.jpg');
   background-size: cover;
 }
+.card-heading
+{
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
 
 @media (max-width : 700px)
 {

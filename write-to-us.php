@@ -14,76 +14,86 @@
 
 <body>
   <nav class="navbar navbar-expand-lg">
-      <!-- Ecell Logo -->
-      <a class="navbar-brand"><img class="ecell-logo" src="img/logo/ecell.png"></a>
+    <!-- Ecell Logo -->
+    <a class="navbar-brand"><img class="ecell-logo" src="img/logo/ecell.png"></a>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
         <li>
           <a class="nav-link px-3 " href="">Home</a>
         </li>
         <li class="nav-item dropdown">
-        <a class="nav-link px-3 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Stories
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">2011-12</a>
-          <a class="dropdown-item" href="#">2011-12</a>
-          <a class="dropdown-item" href="#">2011-12</a>
-          <a class="dropdown-item" href="#">2011-12</a>
-          <a class="dropdown-item" href="#">2011-12</a>
-        </div>
-      </li>
-      <li>
-        <a class="nav-link px-3 " href="">Contribute</a>
-      </li>
-      <li>
-        <a class="nav-link px-3 " href="">Write To Us</a>
-      </li>
-      <li>
-        <a class="nav-link px-3 " href="">Current Team</a>
-      </li>
+          <a class="nav-link px-3 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Stories
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">2011-12</a>
+            <a class="dropdown-item" href="#">2011-12</a>
+            <a class="dropdown-item" href="#">2011-12</a>
+            <a class="dropdown-item" href="#">2011-12</a>
+            <a class="dropdown-item" href="#">2011-12</a>
+          </div>
+        </li>
+        <li>
+          <a class="nav-link px-3 " href="">Contribute</a>
+        </li>
+        <li>
+          <a class="nav-link px-3 " href="">Write To Us</a>
+        </li>
+        <li>
+          <a class="nav-link px-3 " href="">Current Team</a>
+        </li>
 
       </ul>
   </nav>
 
   <div class="page-content">
 
+    <div class="container d-flex justify-content-center p-5 mb-5">
 
-    <form action="./submit.php" method="post">
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="name" class="text-light">Name</label>
-          <input type="text" class="form-control" name="name" required>
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="email" class="text-light">Email</label>
-          <input type="email" class="form-control" name="email" required>
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="phone" class="text-light">Mobile Number</label>
-          <input type="tel" class="form-control" name="phone" placeholder="1234567890" pattern="[0-9]{10}">
-        </div>
-      </div>
-      <div class="form-row">
-        <div class="form-group">
-          <label for="story-text" class="text-light">Story</label>
-          <input type="text" class="form-control" name="story-text" placeholder="Tell us your story" required>
-        </div>
+      <div class="row">
+
+        <form class="p-4" action="./submit.php" method="post">
+
+          <h1 class="card-heading text-center text-light mb-5">Tell Us Your Story!</h1>
+
+          <div class="form-group row mb-4">
+            <label for="name" class="col-md-4 text-light">Name</label>
+            <input type="text" class="col-md-8 form-control rounded-pill" name="name" required>
+          </div>
+
+          <div class="form-group row mb-4">
+            <label for="email" class="text-light col-md-4">Email</label>
+            <input type="email" class="form-control rounded-pill col-md-8" name="email" required>
+          </div>
+
+          <div class="form-group row mb-4">
+            <label for="phone" class="text-light col-md-4">Mobile Number</label>
+            <input type="tel" class="form-control rounded-pill col-md-8" name="phone" placeholder="1234567890" pattern="[0-9]{10}">
+          </div>
+
+          <div class="form-group row mb-4">
+            <label for="story-text" class="text-light col-md-4">Story</label>
+            <input type="text" class="form-control rounded-pill col-md-8 input-lg" name="story-text" placeholder="Tell us your story" required>
+          </div>
+
+          <div class="row justify-content-center">
+            <button type="submit" name="submit" class="text-center btn btn-primary">Sign in</button>
+          </div>
+
+
       </div>
 
-      <button type="submit" name="submit" class="btn btn-primary">Sign in</button>
-    </form>
+      </form>
+
+    </div>
   </div>
 
 </body>
+
 </html>
